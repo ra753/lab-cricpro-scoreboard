@@ -1,16 +1,103 @@
 /* Type your code here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1000px;
+}
+
+div.container {
+  background-image: url(./assets/background-image1.png);
+  background-repeat: no-repeat;
+  height: 670px;
+  background-position: right bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h3,
+table {
+  margin: 0px 40px;
+}
+
+.logo {
+  width: 100%;
+  height: 48px;
+  padding-bottom: 12px;
+}
+
+.logo img {
+  float: right;
+  margin: 10px;
+  clear: both;
+  padding: 8px 50px 0px 0px;
+}
+
+.head {
+  padding: 30px 0px;
+}
+
+.head h1 {
+  font-size: 2.5em;
+  text-shadow: 0 2px 5px rgb(104, 104, 104);
+}
+
+.head h3 {
+  color: rgb(105, 105, 105);
+}
 
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+table {
+  border-collapse: collapse;
+  width: 950px;
+}
+
+tr {
+  background: white;
+}
+
+tr {
+  border-bottom: 2px solid rgb(201, 201, 201);
+}
+
+td {
+  padding: 10px 14px;
+}
+
+td:nth-child(3) {
+  text-align: right;
+}
+
+tr:first-child {
+  background-color: rgb(245, 85, 57);
+  color: white;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+tr:nth-child(2) {
+  background-color: rgb(250, 250, 250);
+  font-weight: 520;
+}
+
+td:nth-child(3) {
+  font-weight: bold;
+}
+
+.foot{
+  margin-left: 40px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-style: normal;
+}
+
+td img {
+  position: absolute;
+  display: none;
 }
